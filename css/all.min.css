@@ -224,9 +224,9 @@ img {
 	transform:translate3d(0,0,0)!important
 }
 @font-face {
-	font-family:'Tangerine';
-	src:url('https://fonts.googleapis.com/css?family=Tangerine') format('truetype');
-	font-weight:bold;
+	font-family:'Dosis';
+	src:url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400&display=swap');
+	font-weight: 200;
 	font-style:normal
 }
 html {
@@ -237,7 +237,7 @@ html {
 	text-shadow:1px 1px 0 rgba(255,255,255,0.4)
 }
 body,button {
-	font-family:"Tangerine",sans-serif
+	font-family: 'Dosis', sans-serif;
 }
 .navigation,.credits,.switches {
 	display:none
@@ -255,7 +255,7 @@ body,button {
 	transition:all .3s cubic-bezier(.77,.10,.22,1)
 }
 .flowtime h1,.flowtime h2,.flowtime h3,.flowtime h4,.flowtime h5,.flowtime h6 {
-	font-weight:bold;
+	/* font-weight:bold; */
 	color:#613b3b;
 	padding-top:1em
 }
