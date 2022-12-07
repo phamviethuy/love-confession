@@ -1165,3 +1165,27 @@ body,button {
 	box-shadow:none;
 }
 .mPower{position: fixed;bottom: 9rem;right: 6.2rem;z-index: 999;}#on, #off{width: 16px;height: 16px;display: inline-block;margin-bottom: -3px;filter: alpha(opacity=0.8);opacity: 0.8;cursor: pointer;}#on:hover, #off:hover{filter: alpha(opacity=4);opacity: 1}#on{background: url(../img/music.png) left center no-repeat;}#off{background: url(../img/mute.png) left center no-repeat;display: none;}
+
+
+.typewriter {
+	justify-content: center;
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+	height: fit-content;
+	white-space: nowrap; /* Keeps the content on a single line */
+	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+	animation: 
+	  typing 3.5s steps(40, end),
+	  blink-caret .75s step-end infinite;
+  }
+
+/* The typing effect */
+@keyframes typing {
+	from { width: 0 }
+	to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+	from, to { border-color: transparent }
+	50% { border-color: orange; }
+  }
